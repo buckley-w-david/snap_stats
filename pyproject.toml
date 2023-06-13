@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "snap-stats"
+version = "0.1.0"
+description = ""
+authors = ["David Buckley <david@davidbuckley.ca>"]
+readme = "README.md"
+packages = [{include = "snap_stats"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aoc-utils = {path = "../advent-of-code/aoc-utils"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
